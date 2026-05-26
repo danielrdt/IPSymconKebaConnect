@@ -853,7 +853,7 @@ class KeConnectP30udp extends IPSModule
             'Host'               => $host,
             'Port'               => $port,
             'BindPort'           => $port,
-            'EnableBroadcast'    => true,
+            'EnableBroadcast'    => false,
             'EnableReuseAddress' => true,
         ];
         $d = json_encode($j, JSON_UNESCAPED_SLASHES);
